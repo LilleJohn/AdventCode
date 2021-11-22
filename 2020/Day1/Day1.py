@@ -1,4 +1,3 @@
-# Part 1
 with open(r'C:\Projekt\Python\AdventCode\2020\Day1\expense_report.txt') as f:
     lines = f.readlines()
 
