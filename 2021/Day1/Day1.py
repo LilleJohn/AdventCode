@@ -1,8 +1,7 @@
-
 with open(r'C:\Projekt\Python\AdventCode\2021\Day1\sonar_report.txt') as f:
     lines = f.readlines()
 
-# Uppg. 1
+# Part 1
 def check_if_increased():
     prev = lines[0]
     increases = 0
@@ -12,7 +11,7 @@ def check_if_increased():
         prev = line
     return increases
 
-# Uppg. 2
+# Part 2
 def check_three_vals():
     increases = 0
     line_counter = 0
